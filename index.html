@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的花店</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="store-banner">
+            <h1>我的花店</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#categories">花卉分类</a></li>
+            <li><a href="#products">产品展示</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+    <section id="categories">
+        <h2>花卉分类</h2>
+        <div class="categories">
+            <div class="category">
+                <img src="roses.jpg" alt="玫瑰花">
+                <p>玫瑰花</p>
+            </div>
+            <div class="category">
+                <img src="tulips.jpg" alt="郁金香" id="tulip-img">
+                <p>郁金香</p>
+                <video id="tulip-video" width="320" height="240" controls style="display: none;">
+                    <source src="tulip-video.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+            <div class="category">
+                <img src="orchids.jpg" alt="兰花">
+                <p>兰花</p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <h2>产品展示</h2>
+        <div class="products">
+            <div class="product">
+                <img src="flower1.jpg" alt="花卉1">
+                <p>花卉1描述</p>
+                <p>价格：¥100</p>
+            </div>
+            <div class="product">
+                <img src="flower2.jpg" alt="花卉2">
+                <p>花卉2描述</p>
+                <p>价格：¥200</p>
+            </div>
+            <div class="product">
+                <img src="flower3.jpg" alt="花卉3">
+                <p>花卉3描述</p>
+                <p>价格：¥150</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>联系邮箱：example@flowerstore.com</p>
+        <p>联系电话：123456</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

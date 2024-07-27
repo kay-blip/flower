@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('flower-background.jpg'); /* 替换为实际的背景图片 */
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.store-banner {
+    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+}
+
+#categories {
+    background-image: url('categories-background.jpg'); /* 替换为实际的背景图片 */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* 如果背景图片较暗，可以考虑白色文字 */
+}
+
+#products {
+    background-image: url('products-background.jpg'); /* 替换为实际的背景图片 */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: white; /* 如果背景图片较暗，可以考虑白色文字 */
+}
+
+.categories, .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category, .product {
+    text-align: center;
+    margin: 20px;
+}
+
+.category img, .product img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+#tulip-video {
+    display: none; /* 初始隐藏视频 */
+    margin-top: 20px;
+}
+
+
+
